@@ -11,5 +11,11 @@ header {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+
+.nav {
+  display: inline-flex;
+  justify-content: flex-end;
+  
 
 }
