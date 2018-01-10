@@ -4,6 +4,7 @@ header {
   font-weight: bold;
   display: flex;
   flex-direction: row;
+  align-items: baseline;
 
 }
 
@@ -14,7 +15,11 @@ header {
 }
 
 .nav {
-  display: flex;
-  justify-content: flex-end;
+  display: inline-block;
+  justify-content: space-between;
+
+}
+
+a {
   color: black;
 }
