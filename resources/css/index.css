@@ -4,18 +4,17 @@ header {
   font-weight: bold;
   display: flex;
   flex-direction: row;
+
 }
 
 .logo {
   color: MediumAquamarine;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  display: inline-flex;
+
 }
 
 .nav {
-  display: inline-flex;
+  display: flex;
   justify-content: flex-end;
-  
-
+  color: black;
 }
