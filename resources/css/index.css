@@ -5,6 +5,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: baseline;
+  justify-content: space-between;
 
 }
 
@@ -16,7 +17,7 @@ header {
 
 .nav {
   display: inline-block;
-  justify-content: space-between;
+
 
 }
 
