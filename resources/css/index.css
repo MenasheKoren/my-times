@@ -6,6 +6,12 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  border-bottom: 1px solid black;
 
 }
 
@@ -38,7 +44,8 @@ main p {
   font-family: Georgia;
   font-size: 17px;
   color: black;
-  
+  display: block;
+
 }
 
 main h3 {
@@ -53,6 +60,7 @@ main h1 {
   font-weight: bold;
   font-size: 40px;
   color: white;
+  display: block;
 }
 .column {
     margin-right: 32px;
