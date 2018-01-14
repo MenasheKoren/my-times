@@ -23,3 +23,29 @@ header {
 a {
   color: black;
 }
+
+main {
+  display: flex;
+
+
+}
+.column.large {
+  width: 630px;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+}
+
+.column.medium {
+  width: 300px;
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
+}
+
+.column.small {
+  width: 240px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+}
