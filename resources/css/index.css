@@ -4,23 +4,20 @@ header {
   font-weight: bold;
   display: flex;
   flex-direction: row;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
 
 }
 
-.logo {
+.name {
   color: MediumAquamarine;
-  display: flex;
-  align-items: center;
-  
-
+  margin-right: auto;
+  padding-left: 10px;
 }
+
 
 .nav {
   display: inline-block;
-
-
 }
 
 a {
