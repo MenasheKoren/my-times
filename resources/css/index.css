@@ -1,3 +1,7 @@
+body {
+  width: 1232px;
+}
+
 header {
   font-family: Verdana;
   font-size: 14px;
@@ -12,6 +16,7 @@ header {
   height: 80px;
   background-color: white;
   border-bottom: 1px solid black;
+  
 
 }
 
@@ -36,7 +41,6 @@ main {
   justify-content: space-around;
   margin: auto;
   text-align: center;
-  width: 1232px;
   margin: 0 auto 78px auto;
   padding-top: 116px;
 
