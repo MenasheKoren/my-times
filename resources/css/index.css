@@ -5,7 +5,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-;
+  justify-content: space-between;
   position: fixed;
   z-index: 1;
   width: 100%;
@@ -33,7 +33,7 @@ a {
 main {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: auto;
   text-align: center;
 
