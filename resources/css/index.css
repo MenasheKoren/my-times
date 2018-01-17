@@ -57,6 +57,7 @@ main p {
   font-size: 17px;
   color: black;
   display: block;
+  text-align: left;
 
 }
 
@@ -119,6 +120,7 @@ main h1 {
   height: 300px;
   margin: 15px;
 }
+
 #cats {
   background-image: url(../images/img-story-1.png);
   background-size: contain;
@@ -140,17 +142,24 @@ main h1 {
   border-top-color:  1px solid black;
   border-bottom-color: 1px solid black;
 }
+
+
+
 footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  align-content: space-around;
   background-color: MediumAquamarine;
   margin: auto;
   font-family: Verdana;
   font-size: 12px;
   width: 100%;
   height: 325px;
+}
+footer nav {
+padding-left: 20px;
 }
 #title {
   font-family: Georgia;
