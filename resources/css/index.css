@@ -138,13 +138,15 @@ main h1 {
 }
 
 #newsbites-content {
+  display: block;
+  padding: 11px 20px;
   background-color: WhiteSmoke;
   font-family: Verdana;
   font-size: 12px;
   color: DimGray;
   margin: 0;
-  border-top-color:  1px solid black;
-  border-bottom-color: 1px solid black;
+  border-top:  1px solid black;
+  border-bottom: 1px solid black;
 }
 
 footer {
