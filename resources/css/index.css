@@ -141,7 +141,7 @@ main h1 {
   font-weight: bold;
 }
 
-#newsbites-content {
+#newsbites-content span {
   display: block;
   padding: 11px 20px;
   background-color: WhiteSmoke;
@@ -150,7 +150,8 @@ main h1 {
   color: DimGray;
   margin: 0;
   border-top:  1px solid black;
-  border-bottom-: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: left;
 }
 
 footer {
