@@ -72,6 +72,12 @@ main span {
   align-content: center;*/
 }
 
+.main-story {
+  display: flex;
+  flex-direction: column;
+
+}
+
 #phish {
   font-family: Georgia;
   font-weight: bold;
@@ -80,7 +86,7 @@ main span {
   display: block;
   text-align: center;
   display: flex;
-  align-content: center;
+  /*align-content: center;*/
 
 
 }
@@ -103,7 +109,7 @@ main span {
   width: 630px;
   display: flex;
   flex-direction: column;
-justify-content: space-between;
+  /*justify-content: space-between;*/
 
 }
 
@@ -145,7 +151,7 @@ justify-content: space-between;
 }
 
 #earth, #memory {
-  width: 300px;
+  /*width: 300px;*/
 }
 
 #cats {
