@@ -44,8 +44,7 @@ a {
 main {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  margin: auto;
+  justify-content: space-between;
   text-align: left;
   margin: 0 auto 78px auto;
   padding-top: 116px;
@@ -63,24 +62,39 @@ main p {
 
 }
 
-main h3 {
+main span {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
   color: white;
   text-align: center;
+  /*display: flex;
+  align-content: center;*/
 }
 
-main h1 {
+#phish {
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
   color: white;
   display: block;
   text-align: center;
+  display: flex;
+  align-content: center;
 
 
 }
+
+.story {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   width: 300px;
+   /*height: 250px;*/
+   /*margin-top: 18px;*/
+
+}
+
 .column {
     margin-right: 32px;
 }
@@ -89,6 +103,8 @@ main h1 {
   width: 630px;
   display: flex;
   flex-direction: column;
+justify-content: space-between;
+
 }
 
 .column.medium {
