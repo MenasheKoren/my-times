@@ -85,6 +85,7 @@ main span {
   display: block;
   text-align: center;
   display: flex;
+  align-items: center;
 
 }
 
@@ -106,12 +107,16 @@ main span {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  text-align: left;
 }
 
 .column.medium {
   width: 300px;
   display: flex;
   flex-direction: column;
+
+  text-align: left;
 }
 
 .column.small {
@@ -140,6 +145,8 @@ main span {
   background-size: auto;
   height: 300px;
   margin: 15px;
+
+  align-items: center;
 }
 
 #memory {
@@ -149,6 +156,8 @@ main span {
   background-size: auto;
   height: 300px;
   margin: 15px;
+
+  align-items: center;
 }
 
 
@@ -159,6 +168,8 @@ main span {
   background-size: auto;
   height: 300px;
   margin: 15px;
+  display: flex;
+  align-items: center;
 }
 
 #newsbites-head {
