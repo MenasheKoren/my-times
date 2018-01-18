@@ -87,22 +87,19 @@ main span {
   text-align: center;
   display: flex;
   /*align-content: center;*/
-
-
 }
 
 .story {
-   /*display: flex;
+  /*display: flex;
    flex-direction: column;
    justify-content: space-between;
    width: 300px;*/
-   /*height: 250px;*/
-   /*margin-top: 18px;*/
-
+  /*height: 250px;*/
+  /*margin-top: 18px;*/
 }
 
 .column {
-    margin-right: 32px;
+  margin-right: 32px;
 }
 
 .column.large {
@@ -110,7 +107,6 @@ main span {
   display: flex;
   flex-direction: column;
   /*justify-content: space-between;*/
-
 }
 
 .column.medium {
@@ -127,6 +123,7 @@ main span {
 
 .secondary-story {
   display: flex;
+  justify-content: space-between;
 }
 
 #phish {
@@ -145,6 +142,7 @@ main span {
   height: 300px;
   margin: 15px;
 }
+
 #memory {
   background-image: url(../images/img-story-3.png);
   background-size: contain;
@@ -153,7 +151,8 @@ main span {
   margin: 15px;
 }
 
-#earth, #memory {
+#earth,
+#memory {
   /*width: 300px;*/
 }
 
@@ -164,6 +163,7 @@ main span {
   height: 300px;
   margin: 15px;
 }
+
 #newsbites-head {
   font-size: 16px;
   font-weight: bold;
@@ -196,7 +196,7 @@ footer {
   height: 325px;
 }
 
-footer nav  {
+footer nav {
   display: inline-flex;
   justify-content: space-around;
 }
