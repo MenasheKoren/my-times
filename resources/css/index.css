@@ -106,7 +106,7 @@ main span {
   width: 630px;
   display: flex;
   flex-direction: column;
-  /*justify-content: space-between;*/
+  justify-content: space-between;
 }
 
 .column.medium {
@@ -151,10 +151,7 @@ main span {
   margin: 15px;
 }
 
-#earth,
-#memory {
-  /*width: 300px;*/
-}
+
 
 #cats {
   background-image: url(../images/img-story-1.png);
