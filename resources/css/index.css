@@ -1,5 +1,5 @@
 body {
-  /*width: 1232px;*/
+  width: 1232px;
   margin: auto;
 
 
@@ -69,6 +69,10 @@ main span {
   font-size: 30px;
   color: white;
   text-align: left;
+
+
+
+
 }
 
 .main-story {
@@ -90,12 +94,13 @@ main span {
 }
 
 .story {
-  /*display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   width: 300px;*/
-  /*height: 250px;*/
-  /*margin-top: 18px;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  align-items: baseline;
+  width: 300px;
+
 }
 
 .column {
@@ -126,10 +131,9 @@ main span {
 }
 
 .secondary-story {
-  display: flex;
-
-
+  display: flex
 }
+
 
 #phish {
   background-image: url(../images/img-story-main.png);
