@@ -125,6 +125,9 @@ main span {
   flex-direction: column;
 }
 
+.secondary-story {
+  display: flex;
+}
 
 #phish {
   background-image: url(../images/img-story-main.png);
