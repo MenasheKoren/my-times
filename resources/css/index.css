@@ -59,6 +59,7 @@ main p {
   color: black;
   display: block;
   text-align: left;
+  width: inherit;
 
 }
 
@@ -68,8 +69,6 @@ main span {
   font-size: 30px;
   color: white;
   text-align: center;
-  /*display: flex;
-  align-content: center;*/
 }
 
 .main-story {
@@ -86,7 +85,7 @@ main span {
   display: block;
   text-align: center;
   display: flex;
-  /*align-content: center;*/
+
 }
 
 .story {
@@ -123,7 +122,6 @@ main span {
 
 .secondary-story {
   display: flex;
-  justify-content: space-between;
 }
 
 #phish {
@@ -137,6 +135,7 @@ main span {
 
 #earth {
   background-image: url(../images/img-story-2.png);
+  display: flex;
   background-size: contain;
   background-size: auto;
   height: 300px;
@@ -145,6 +144,7 @@ main span {
 
 #memory {
   background-image: url(../images/img-story-3.png);
+  display: flex;
   background-size: contain;
   background-size: auto;
   height: 300px;
